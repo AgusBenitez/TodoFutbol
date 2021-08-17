@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.header {
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    background-color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 94vh;
+}
+
+.banner__img {
+    width: 100%;
+    height: 94vh;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.banner__intro {
+    position: relative;   
+    padding-top: 30vh;   
+    margin-left: 20%;
+}
+
+.banner__title {
+    font-weight: 700;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.banner__button {
+    color: white;
+    background-color: black;
+}
+
+.banner__button:hover {
+    background-color: white;
+    color: black;
+}
+
+.grilla-productos__card {
+    width: 30%;
+}
+
+.grilla-productos__card__img {
+    height: 255px;
+}
+
+.sumar-carrito {
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+}
+
+.sumar-carrito:hover {
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+}
+
+.footer {
+    height: 300px;
+    background-color: black;
+}
+
+.footer__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__div {
+    height: 250px;
+}
+
+.footer__copy {
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.modal__carrito {
+    margin-top: 100px;
+}
+
+.modal-body__img {
+    height: 100px;
+}
+
+.modal-body__titles {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.btn-suma {
+    color: white;
+    width: 30%;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.btn-resta {
+    color: white;
+    width: 30%;
+    height: 30px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .banner__intro {   
+        position: relative;
+        width: 80%;
+        padding-top: 20vh;
+        margin-left: 10%;
+    }
+
+    .banner__img {
+        opacity: 90%;
+    }
+
+    .grilla-productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .grilla-productos__card {
+        font-size: x-small;
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+    }
+
+    .grilla-productos__card h4 {
+        font-size: 10px!important;
+    }
+
+    .grilla-productos__card__img {
+        height: 110px;
+    }
+    
+    .sumar-carrito {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .footer__div iframe {
+        width: 50%; 
+        height: 200px;       
+    }
+}
+
+

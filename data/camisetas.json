@@ -1,0 +1,184 @@
+[
+    {
+        "nombre": "Camiseta San Lorenzo Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camiseta-sanlorenzo-titular.webp",
+        "precio": "$7000",
+        "id": 1
+    },
+    {
+        "nombre": "Camiseta Boca Jrs. Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camiseta-boca-titular.webp",
+        "precio": "$7000",
+        "id": 2
+    },
+    {
+        "nombre": "Camiseta Independiente Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camiseta-independiente-titular.webp",
+        "precio": "$7000",
+        "id": 3
+    },
+    {
+        "nombre": "Camiseta Aldosivi Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaaldosivi-titular.webp",
+        "precio": "$7000",
+        "id": 4
+    },
+    {
+        "nombre": "Camiseta Argentinos Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaargentinos-titular.jpg",
+        "precio": "$7000",
+        "id": 5
+    },
+    {
+        "nombre": "Camiseta Arsenal Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaarsenal-titular.webp",
+        "precio": "$7000",
+        "id": 6
+    },
+    {
+        "nombre": "Camiseta At.Tucumán Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaatleticotucuman-titular.webp",
+        "precio": "$7000",
+        "id": 7
+    },
+    {
+        "nombre": "Camiseta Banfield Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetabanfield-titular.webp",
+        "precio": "$7000",
+        "id": 8
+    },
+    {
+        "nombre": "Camiseta R.Central Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetacentral-titular.jpg",
+        "precio": "$7000",
+        "id": 9
+    },
+    {
+        "nombre": "Camiseta C.Córdoba Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetacentralcordoba-titular.webp",
+        "precio": "$7000",
+        "id": 10
+    },
+    {
+        "nombre": "Camiseta Colón Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetacolon-titular.jpg",
+        "precio": "$7000",
+        "id": 11
+    },
+    {
+        "nombre": "Camiseta DyJ Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetadefensa-titular.webp",
+        "precio": "$7000",
+        "id": 12
+    },
+    {
+        "nombre": "Camiseta Estudiantes Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaestudiantes-titular.webp",
+        "precio": "$7000",
+        "id": 13
+    },
+    {
+        "nombre": "Camiseta Gimnasia LP Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetagimnasia-titular.webp",
+        "precio": "$7000",
+        "id": 14
+    },
+    {
+        "nombre": "Camiseta Godoy Cruz Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetagodoycruz-titular.webp",
+        "precio": "$7000",
+        "id": 15
+    },
+    {
+        "nombre": "Camiseta Huracán Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetahuracan-titular.png",
+        "precio": "$7000",
+        "id": 16
+    },
+    {
+        "nombre": "Camiseta Lanús Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetalanus-titular.png",
+        "precio": "$7000",
+        "id": 17
+    },
+    {
+        "nombre": "Camiseta Newells Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetanewells-titular.webp",
+        "precio": "$7000",
+        "id": 18
+    },
+    {
+        "nombre": "Camiseta Patronato Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetapatronato-titular.webp",
+        "precio": "$7000",
+        "id": 19
+    },
+    {
+        "nombre": "Camiseta Platense Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaplatense-titular.jpeg",
+        "precio": "$7000",
+        "id": 20
+    },
+    {
+        "nombre": "Camiseta Racing Club Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaracing-titular.jpg",
+        "precio": "$7000",
+        "id": 21
+    },
+    {
+        "nombre": "Camiseta River Plate Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetariver-titular.jpg",
+        "precio": "$7000",
+        "id": 22
+    },
+    {
+        "nombre": "Camiseta Sarmiento Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetasarmiento-titular.jpg",
+        "precio": "$7000",
+        "id": 23
+    },
+    {
+        "nombre": "Camiseta Talleres Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetatalleres-titular.webp",
+        "precio": "$7000",
+        "id": 24
+    },
+    {
+        "nombre": "Camiseta Unión Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetaunion-titular.webp",
+        "precio": "$7000",
+        "id": 25
+    },
+    {
+        "nombre": "Camiseta Velez Home 2021",
+        "cantidad": 1,
+        "srcImg": "media/img/camisetavelez-titular.jpg",
+        "precio": "$7000",
+        "id": 26
+    }
+]

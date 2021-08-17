@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/img/favicon.png" type="image/png" />
+    <title>TodoFútbol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">TodoFutbol</a>
+                <div class="justify-content-lg-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <button id="button-carrito" type="button" class="btn bg-light" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal__carrito">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Tu carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body__titles">
+                        <h4 class="fs-6 ml-6">Producto</h4>
+                        <h4 class="fs-6">Cantidad</h4>
+                        <h4 class="fs-6">Precio</h4>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="vaciar-carrito" type="button" class="btn btn-danger">Vaciar carrito</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                    <a href="https://www.mercadopago.com.ar/"><button type="button" class="btn btn-primary">Finalizar
+                            compra</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="banner">
+        <img class="banner__img" src="media/img/background1.jpg" alt="">
+        <div class="banner__intro col-lg-3">
+            <h2 class="text-light banner__title">ACÁ SE RESPIRA FÚTBOL.</h2>
+            <p class="text-light">Bienvenido a nuestra tienda online.</br>
+                Encontrá toda la indumentaria de los equipos de la
+                primera división del fútbol Argentino en un sólo click.</p>
+            <a href="#main"><button type="button" class="btn banner__button">Explorar</button></a>
+        </div>
+    </section>
+
+    <section id="main"
+        class="container grilla-productos p-4 d-flex flex-lg-row flex-wrap justify-content-lg-between mt-4">
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__div d-flex flex-row justify-content-around align-items-center">
+            <div class="d-flex flex-column flex-lg-row">
+                <h3 class="text-light">TodoFútbol</h3>
+                <div>
+                    <img class="footer__icon" src="media/img/SVG/Instagram.svg" alt="">
+                    <img class="footer__icon" src="media/img/SVG/Facebook.svg" alt="">
+                    <img class="footer__icon" src="media/img/SVG/Whatsapp.svg" alt="">
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.876065211833!2d-58.27843138425321!3d-34.758714673223736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e9d0f622c19%3A0x7cfe76adbfe0959c!2sAv.%20Calchaqu%C3%AD%203950%2C%20Quilmes%20Oeste%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1627072727712!5m2!1ses-419!2sar"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p class="text-light text-center footer__copy">Copyright © 2021 TodoFútbol. Todos los derechos reservados.
+            Designed by
+            Agustin Benitez</p>
+    </footer>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--app-->
+    <script src="js/renderCamisetas.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
