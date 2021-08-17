@@ -1,5 +1,5 @@
 $.ajax({
-    url: "/data/camisetas.json",
+    url: "data/camisetas.json",
     method: "GET",
     success: function (result) {
         let productos = result;
