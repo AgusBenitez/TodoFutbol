@@ -53,6 +53,10 @@ body {
     width: 30%;
 }
 
+.grilla-productos__card h4 {
+    height: 40px;
+}
+
 .grilla-productos__card__img {
     height: 255px;
 }
